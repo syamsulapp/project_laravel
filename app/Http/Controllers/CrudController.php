@@ -34,6 +34,7 @@ class CrudController extends Controller
             'list' => CrudModels::all(),
             'format' => $kode_urut
         ]);
+        //sintaks diatas untuk mengirim data crud dan mengirim kode nrcs ke views 
     }
 
     /**
